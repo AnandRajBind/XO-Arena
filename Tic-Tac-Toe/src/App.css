@@ -1,0 +1,75 @@
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.water-background {
+  background-color: #4B495F;
+}
+
+.finished-state {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #574cb4;
+  font-weight: 600;
+  text-align: center;
+}
+
+.game-heading {
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.square-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.move-detection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.left,
+.right {
+  height: 30px;
+  width: 120px;
+  background-color: #4B495F;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.waiting {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 44px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.current-move-circle{
+  background-color: #DD7F9F;
+}
+
+.current-move-cross{
+  background-color: #3FA7F0;
+}

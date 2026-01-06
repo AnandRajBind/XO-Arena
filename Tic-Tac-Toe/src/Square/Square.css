@@ -1,0 +1,40 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #4B495F;
+    border-radius: 5px;
+}
+
+.square:hover {
+    /* cursor: pointer; */
+    background-color: #574cb4;
+}
+
+.not-allowed {
+    cursor: not-allowed !important;
+    /* pointer-events: none; */
+}
+
+.circle-won {
+    background-color: #DD7F9F !important;
+}
+
+.cross-won {
+    background-color: rgb(63, 167, 240) !important;
+}
+
+.playOnline {
+    font-weight: 700;
+    border: none;
+    background-color: #E4CA56;
+    font-size: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40vh;
+    outline: none;
+    padding: 6px 10px;
+}
+
+.grey-background{
+    background-color: grey !important;
+}
