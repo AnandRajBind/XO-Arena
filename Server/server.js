@@ -9,7 +9,9 @@ const { Server } = require('socket.io');
 const httpServer = createServer();
 const io = new Server(httpServer, {
     // allowing cors for vite dev server
-    cors: "http://localhost:5173/"
+    cors: ["http://localhost:5173/",
+        "https://xoarena.vercel.app"
+    ]
 })
 
 
