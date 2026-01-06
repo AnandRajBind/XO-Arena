@@ -122,7 +122,13 @@ function App() {
 
     // console.log(result);
     //  Socket.io client import and connection
-    const newSocket = io('http://localhost:3000', {
+    //************************************local host ****************************** */
+    // const newSocket = io('http://localhost:3000', {
+    //   autoConnect: true
+    // });
+
+
+    const newSocket = io(import.meta.env.VITE_BACKEND_URL, {
       autoConnect: true
     });
     // emit request to play event to server with player name
