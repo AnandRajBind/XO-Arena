@@ -140,7 +140,7 @@ function App() {
   //  play button rendering
   if (!playOnline) {
     return <div className='main-div'>
-      <button onClick={playOnlineClick} className='playOnline'> Play Online </button>
+      <button onClick={playOnlineClick} className='playOnline'> Start Game...</button>
     </div>
   }
   if (playOnline && !opponentName) {
